@@ -10,15 +10,26 @@
         <div class="navbar-brand social">{% include social.liquid %}</div>
       {% endif %}
 
-      {% if site.enable_localization and site.languages.size == 2 %}
-        <div class="lang-item {% if site.lang == "en" %}active{% endif %}">
-          <a class="lang-link" href="{{site.baseurl_root}}{{ page.url }}">{{ site.translations.en.lang_local }}</a>
-        </div>
-        {{ ' / ' }}
-        <div class="lang-item {% if site.lang == "zh" %}active{% endif %}">
-          <a class="lang-link" href="{{site.baseurl_root}}/{{site.languages.last}}{{page.url}}">{{ site.translations.zh.lang_local }}</a>
-        </div>
-      {% endif %}
+      <div class="lang-item active">
+        {% if site.lang == site.languages.first %}
+          <a class="lang-link" href="{{site.baseurl_root}}/{{site.languages.last}}{{page.url}}">{{ site.translations[site.lang].lang_switch }}</a>
+        {% elsif site.lang == site.languages.last %}
+          <a class="lang-link" href="{{site.baseurl_root}}{{ page.url }}">{{ site.translations[site.lang].lang_switch }}</a>
+        {% endif %}
+      </div>
+
+      <!-- buggy -->
+      {% comment %}
+        {% if site.enable_localization and site.languages.size == 2 %}
+          <div class="lang-item {% if site.lang == "en" %}active{% endif %}">
+            <a class="lang-link" href="{{site.baseurl_root}}{{ page.url }}">{{ site.translations.en.lang_local }}</a>
+          </div>
+          {{ ' / ' }}
+          <div class="lang-item {% if site.lang == "zh" %}active{% endif %}">
+            <a class="lang-link" href="{{site.baseurl_root}}/{{site.languages.last}}{{page.url}}">{{ site.translations.zh.lang_local }}</a>
+          </div>
+        {% endif %}
+      {% endcomment %}
 
       <!-- Toogle language : buggy -->
       {% comment %}
