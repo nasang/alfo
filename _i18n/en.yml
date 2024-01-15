@@ -1,17 +1,17 @@
+lang_local: English
 not_found:
   message: You will be redirected to the main page within 3 seconds. If not redirected, please go back to the
   main_page: home page
 main:
-  contact_note: You can even add a little note about which of these is the best way to reach you.
+  contact_note: contact me via email if you find me interesting
   footer_text: > # the ">" symbol means to ignore newlines until "titles:"
     Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> theme.
     Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
     Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-  subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+    <p>March 2023</p>
+    <p>@ Chengdu, China</p>
+  subtitle: 吾生也有涯，而知也无涯
 titles:
   about: about
   blog: blog

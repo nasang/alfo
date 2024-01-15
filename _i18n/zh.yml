@@ -1,6 +1,7 @@
+lang_local: 中文
 not_found:
-  message: Você será redirecionado para a página principal em 3 segundos. Se não for redirecionado, por favor volte para a
-  main_page: página principal
+  message: 您将在三秒内被重定向至主页。如果没有，请回到主页。
+  main_page: 主页
 main:
   contact_note: Você pode até adicionar uma pequena observação sobre qual dessas é a melhor maneira de entrar em contato com você.
   footer_text: > # the ">" symbol means to ignore newlines until "titles:"
@@ -8,24 +9,23 @@ main:
     Hospedado por <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
     Fotos do <a href="https://unsplash.com" target="_blank">Unsplash</a>.
   more_info: >
-    <p>555 seu telefone do trabalho</p>
-    <p>123 seu endereço</p>
-    <p>Sua cidade, estado 12345</p>
-  subtitle: <a href='#'>Afiliações</a>. Endereço. Contatos. Lema. Etc.
+    <p>2023年3月</p>
+    <p>摄于中国四川省成都市</p>
+  subtitle: 吾生也有涯，而知也无涯
 titles:
-  about: sobre
-  blog: blog
+  about: 关于
+  blog: 博客
   cv: cv
-  latest_posts: últimas postagens
-  news: novidades
+  latest_posts: 最新博文
+  news: 新闻
   profiles: membros
-  projects: projetos
+  projects: 项目
   publications: publicações
   repositories: repositórios
   selected_publications: publicações selecionadas
-  teaching: ensino
+  teaching: 教学
   submenus: submenus
-  unk: página não encontrada
+  unk: 没有找到页面
 descriptions:
   about: Um tema simples para acadêmicos. Baseado no design do [*folio](https://github.com/bogoli/-folio).
   archive-category: um arquivo de postagens desta categoria

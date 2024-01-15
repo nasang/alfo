@@ -1,5 +1,5 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am Na Sang, a software engineer at [Meta Platforms, Inc.](https://about.meta.com/company-info/) I earned my Master's degree in Computer Science from the [University of California San Diego](https://www.ucsd.edu/) in 2023 and my Bachelor's degree in Information and Computing Science from [Sun Yat-sen University](https://www.sysu.edu.cn/) in 2020.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/multi-language-al-folio/publications/) automatically.
+I have industry experience in infrastructure, backend service development, machine learning and full stack development. I am always eager to learn, particularly about artificial intelligence and systems. In my free time, I enjoy solving problems on [LeetCode](https://leetcode.com/na202/) and writing solutions.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In addition to my professional interests, I also enjoy watching movies, fitness, traveling, and photography.
