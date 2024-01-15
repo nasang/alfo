@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://nasang.github.io/pt-br/sitemap.xml
