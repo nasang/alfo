@@ -22,14 +22,6 @@ pagination:
 {% assign blog_name_size = site.translations[site.lang].blog.name | size %}
 {% assign blog_description_size = site.translations[site.lang].blog.description | size %}
 
-{% if blog_name_size > 0 or blog_description_size > 0 %}
-
-  <div class="header-bar">
-    <h1>{% t blog.name %}</h1>
-    <h2>{% t blog.description %}</h2>
-  </div>
-  {% endif %}
-
 {% if site.display_tags or site.display_categories %}
 
   <div class="tag-category-list">
