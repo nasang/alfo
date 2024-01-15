@@ -1,4 +1,5 @@
 lang_local: 中文
+lang_switch: switch to English
 not_found:
   message: 您将在三秒内被重定向至主页。如果没有，请回到主页。
   main_page: 主页

@@ -10,29 +10,41 @@
         <div class="navbar-brand social">{% include social.liquid %}</div>
       {% endif %}
 
-      <!-- Toogle language -->
       {% if site.enable_localization and site.languages.size == 2 %}
-        {% for lang in site.languages %}
-          <div class="lang-item {% if lang == site.lang %}active{% endif %}">
-            {% if lang == site.languages.first %}
-              <a
-                class="lang-link"
-                href="{{ site.baseurl_root }}{{ page.url }}"
-              >
-                {{- site.translations[lang].lang_local -}}
-              </a>
-            {% else %}
-              <a
-                class="lang-link"
-                href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}"
-              >
-                {{- site.translations[lang].lang_local -}}
-              </a>
-            {% endif %}
-          </div>
-          {% if forloop.last == false %}{{ ' / ' }}{% endif %}
-        {% endfor %}
+        <div class="lang-item {% if site.lang == "en" %}active{% endif %}">
+          <a class="lang-link" href="{{site.baseurl_root}}{{ page.url }}">{{ site.translations.en.lang_local }}</a>
+        </div>
+        {{ ' / ' }}
+        <div class="lang-item {% if site.lang == "zh" %}active{% endif %}">
+          <a class="lang-link" href="{{site.baseurl_root}}/{{site.languages.last}}{{page.url}}">{{ site.translations.zh.lang_local }}</a>
+        </div>
       {% endif %}
+
+      <!-- Toogle language : buggy -->
+      {% comment %}
+        {% if site.enable_localization and site.languages.size == 2 %}
+          {% for lang in site.languages %}
+            <div class="lang-item {% if lang == site.lang %}active{% endif %}">
+              {% if lang == site.languages.first %}
+                <a
+                  class="lang-link"
+                  href="{{ site.baseurl_root }}{{ page.url }}"
+                >
+                  {{ site.translations[lang].lang_local }}
+                </a>
+              {% else %}
+                <a
+                  class="lang-link"
+                  href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}"
+                >
+                  {{ site.translations[lang].lang_local }}
+                </a>
+              {% endif %}
+            </div>
+            {% if forloop.last == false %}{{ ' / ' }}{% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endcomment %}
 
       <!-- Navbar Toggle -->
       <button

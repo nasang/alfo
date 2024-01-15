@@ -1,4 +1,5 @@
 lang_local: English
+lang_switch: 切换到中文
 not_found:
   message: You will be redirected to the main page within 3 seconds. If not redirected, please go back to the
   main_page: home page
