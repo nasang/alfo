@@ -85,23 +85,6 @@ pagination:
   older: Older
   page: page
 projects:
-  titles:
-    project1: Project 1
-    project2: Project 2
-    project3: Project 3
-    project4: Project 4
-    project5: Project 5
-    project6: Project 6
-  descriptions:
-    project1: a project with a background image
-    project2: a project with a background image and giscus comments
-    project3: a project that redirects to another website
-    project4: another without an image
-    project5: a project with a background image
-    project6: a project with no image
-  categories:
-    fun: fun
-    work: work
 repositories:
   users: GitHub Users
   repos: GitHub Repositories

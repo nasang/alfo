@@ -11,8 +11,8 @@
 {% if site.lang == 'en' %}
   {% t month %}
   {{ day }}, {{ year }}
-{% elsif site.lang == 'pt-br' %}
-  {{ day }} de {% t month %}, {{ year }}
+{% elsif site.lang == 'zh' %}
+  {{ year }}{{ "年" }}{% t month %}{{ day }}{{ "日" }}
 {% else %}
   {{ day }}
   {% t month %}

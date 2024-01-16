@@ -131,6 +131,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  places:
+    output: true
+    permlink: /places/:path/
 
 announcements:
   enabled: true
@@ -201,7 +204,7 @@ sass:
 
 # multi language settings
 default_locale_in_subfolder: false
-exclude_from_localizations: ["assets"]
+# exclude_from_localizations: ["assets"]
 languages: ["en", "zh"]
 
 # -----------------------------------------------------------------------------
