@@ -11,9 +11,10 @@ toc:
 
 2023年3月24日至3月27日，我和主b来了重庆游玩。这是我第二次来重庆啦！
 
-
 ## 食
+
 作为无辣不欢人士，在重庆吃辣可真是太爽了。首先一定要吃上我自上次离开重庆就一直念念不忘的——[何记兴绍皮豆干](https://www.cqspdg.com/)！这真是一个值得载入史册的名字。
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/travel/chongqing/hejixing.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -28,6 +29,7 @@ toc:
 2021年第一次来重庆的时候，我在解放碑的八一路解放碑好吃街就看见了这家店。当时因为排队的人实在是太多了（至今仍然未知为何重庆的好吃街在工作日依然从早到晚全是人人人人），直到我离开都没吃上一口。不过当时在观音桥好吃街吃了另一家：串小毛绍皮豆干，给我辣（麻）得不行，吃了几口立马去买了一碗冰粉。这次可算是吃上了，实在是太美味了！软嫩耙糯的苕皮包上酸萝卜、里脊/牛排等多汁肉块儿，再撒上灵魂辣味调料，一口下去，好吃到想要升天。唇齿之间都是香辣酥麻感，令人欲罢不能。
 
 实际上，我们到达重庆和吃的第一家店是位于观音桥好吃街的“[龙记山城汤圆](http://www.longjiscty.com/11068/)”，吃了凉粉和冰粉。没什么印象，不在话下。另一家是拇指生煎，顾名思义，即拇指大小的生煎包。这个产品在很多家都有得买，口味不一。我的印象是：好吃！美味！欲罢不能！再者，是“龙虾煎”。当初主b吃完了说一般，不过在我写这篇文章时（2024年1月15日），她已觉得好吃。美利坚，你改变人太多！
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/travel/chongqing/bingfen.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -57,7 +59,9 @@ toc:
 </div>
 
 ## 饮
+
 重庆的特色饮品店是“[一只酸奶牛](http://www.ayogurtcow.com/)”。我们尝了以下饮品，总体而言好喝。
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/travel/chongqing/suannainiu1.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -68,6 +72,7 @@ toc:
 </div>
 
 另外值得一提的是主b赞不绝口的“囍豆花”，在上面“乡村基”的照片里也有出现过。如果说何记兴绍皮豆干是我们在重庆的主食，那么囍豆花就是我们在重庆的主饮，真是一顿都离不了！
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/travel/chongqing/xidouhua.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -78,6 +83,7 @@ toc:
 </div>
 
 另外一个小插曲是，我们去解放碑八一路好吃街的那个晚上，路过了一家买芋泥桶的店，我感到有些走不动路。纠结了一会儿之后，我下定决心买了，特别特别大。不知为何，紫色的食物对我好像有一些特别的吸引力。也许是因为很喜欢吃芋泥吧！
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/travel/chongqing/yunitong.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -85,10 +91,10 @@ toc:
 </div>
 
 ## 玩
+
 最初想要去重庆，是因为看了网上的段子：打车的时候，出租车司机到了一层，而自己在八层。对一个从小在大平原地区生活的人来说，这样的体验是十分新奇的。我的游玩，从踏上重庆的轻轨便开始了。
 
 很难忘我和主b撑着伞从来福士走到千厮门大桥，2公里的路程仿佛走了半个世纪。而在千厮门大桥上回望时，鳞次栉比的摩天大楼在雨雾中亮着层层叠叠的霓虹灯，给人的震撼和新奇又是多么难以言喻。
-
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -109,6 +115,7 @@ toc:
 </div>
 
 对比之下，我们特地前往的著名景区——磁器口，实在是乏善可陈。实在是很典的景区：
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/travel/chongqing/ciqikou.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -143,6 +150,7 @@ toc:
 </div>
 
 ### 白象居
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/travel/chongqing/baixiangju.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -156,7 +164,9 @@ toc:
 </div>
 
 ### 旧照
+
 精选一些2021年拍的旧照：
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/travel/chongqing/eling.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}

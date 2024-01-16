@@ -12,7 +12,11 @@
   {% t month %}
   {{ day }}, {{ year }}
 {% elsif site.lang == 'zh' %}
-  {{ year }}{{ "年" }}{% t month %}{{ day }}{{ "日" }}
+  {{ year -}}
+  {{- '年' -}}
+  {%- t month -%}
+  {{- day -}}
+  {{- '日' }}
 {% else %}
   {{ day }}
   {% t month %}
