@@ -41,6 +41,14 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+
+    {% if page.skills %}
+        <h2>
+            Skills
+        </h2>
+        {% include skills.liquid %}
+    {% endif %}
+
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
