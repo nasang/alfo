@@ -3,7 +3,7 @@ layout: page
 title: titles.leetcode
 description: descriptions.leetcode
 permalink: /leetcode/
-nav: true
+nav: false
 nav_order: 6
 languages: ["zh"]
 ---

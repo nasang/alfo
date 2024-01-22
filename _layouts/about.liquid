@@ -33,8 +33,15 @@ layout: default
           %}
         {% endif %}
         {% assign more_info_size = site.translations[site.lang].main.more_info | size %}
-        {% if more_info_size > 0 %}
-          <div class="more-info">{% t main.more_info %}</div>
+        {% comment %}
+          {% if more_info_size > 0 %}
+            <div class="more-info">{% t main.more_info %}</div>
+          {% endif %}
+        {% endcomment %}
+        {% if page.social %}
+          <div class="social">
+            <div class="contact-icons">{% include social.liquid %}</div>
+          </div>
         {% endif %}
       </div>
     {% endif %}
@@ -68,15 +75,6 @@ layout: default
         <a href="{{ '/publications/' | prepend: site.baseurl }}" style="color: inherit;">{% t titles.selected_publications %}</a>
       </h2>
       {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{% t main.contact_note %}</div>
-      </div>
     {% endif %}
   </article>
 </div>

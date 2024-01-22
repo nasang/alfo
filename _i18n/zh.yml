@@ -6,8 +6,7 @@ not_found:
 main:
   contact_note: 欢迎通过邮件联系我
   footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-    由 <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> 提供支持.
-    托管于 <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+    <a href="https://github.com/nasang/nasang.github.io" target="_blank">本站代码</a>.
   last_update: 最近更新于
   more_info: >
     <p>2023年3月</p>

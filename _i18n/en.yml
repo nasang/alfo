@@ -6,8 +6,7 @@ not_found:
 main:
   contact_note: contact me via email if you find me interesting
   footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-    Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
-    Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+    <a href="https://github.com/nasang/nasang.github.io" target="_blank">Website source code</a>.
   last_update: Last updated
   more_info: >
     <p>March 2023</p>
@@ -17,8 +16,8 @@ titles:
   about: About
   blog: Blog
   cv: cv
-  latest_posts: latest posts
-  news: news
+  latest_posts: Latest posts
+  news: News
   profiles: people
   projects: Projects
   publications: publications
