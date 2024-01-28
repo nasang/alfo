@@ -6,7 +6,7 @@ description: 让人走到脚痛的8D城市
 categories: 游记
 languages: ["zh"]
 toc:
-  sidebar: left
+  sidebar: right
 ---
 
 2023年3月24日至3月27日，我和主b来了重庆游玩。这是我第二次来重庆啦！
