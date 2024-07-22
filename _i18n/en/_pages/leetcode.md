@@ -6,3 +6,4 @@
 | | | | | | | | | |[<font color="green">350</font>](/blog/2024/leetcode-350/)|
 | | | | | | | | |[<font color="orange">1509</font>](/blog/2024/leetcode-1509/)||
 | | | | | | | | | |[<font color="green">1550</font>](/blog/2024/leetcode-1550/)|
+| | | | | | | | [<font color="green">2418</font>](/blog/2024/leetcode-2418/) | ||
